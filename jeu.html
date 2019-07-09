@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./jeu.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>ZELDA 18</h1>
+
+    <br><br>
+    <div class="perso">
+        <div id="héro">
+            <p class="carac">Nom : <span id="nom"></span></p>
+            <p class="carac">lvl : <span id="lvl"></span> <span id="lvlup"></span></p>
+            <p class="carac">sante : <span id="sante"></span> <span id="santedown"></span><span id="santeplus"></span>/
+                <span id="santemax"></span></p>
+            <p class="carac">force : <span id="force"></span><span id="forceup"></span></p>
+            <p class="carac">xp : <span id="xp"></span><span id="xpup"></span></p>
+            <p class="carac">prochain lvl a : <span id="xpseuil"> xp</span></p>
+            <p class="carac">Pièce d'Or (PO) : <span id="PO"></span></p>
+        </div>
+
+        <section>
+            <div id="insectid">
+                <div class="hautcard"><span>INSECT</span><img src="./img/insect.jpg"></div>
+                <div class="insect"> Nom : <span id="nominsect"></span></div>
+                <div class="insect"> sante : <span id="santeinsect"></span><span id="santeinsectdown"></span> / <span
+                        id="santemaxinsect"></span></div>
+                <div class="insect"> force : <span id="forceinsect"></span></div>
+                <div class="insect"> xp donné : <span id="xpdonneinsect"></span></div>
+                <div class="boutonennemi">
+                    <button id="insect" class="bouton combat">combattre</button>
+                    <button id="stopinsect" class="bouton fuite">fuite</button>
+                </div>
+            </div>
+
+            <div id="gobelinid">
+                <div class="hautcard"><span>GOBELIN</span><img src="./img/ob_f2471d_gobelin.jpg"></div>
+                <div class="gobelin"> Nom : <span id="nomgobelin"></span></div>
+                <div class="gobelin"> sante : <span id="santegobelin"></span><span id="santegobelindown"></span> / <span id="santemaxgobelin"></span></div>
+                <div class="gobelin"> force : <span id="forcegobelin"></span></div>
+                <div class="gobelin"> xp donné : <span id="xpdonnegobelin"></span></div>
+                <div>
+                    <button id="gobelin" class="bouton combat">combattre</button>
+                    <button id="stopgobelin" class="bouton fuite">fuite</button>
+                </div>
+            </div>
+
+            <div id="bossid">
+                <div class="hautcard"><span>BOSS</span><img src="./img/boss.jpg"></div>
+                <div class="boss"> Nom : <span id="nomboss"></span></div>
+                <div class="boss"> sante : <span id="santeboss"></span><span id="santebossdown"></span> / <span id="santemaxboss"></span></div>
+                <div class="boss"> force : <span id="forceboss"></span></div>
+                <div class="boss"> xp donné : <span id="xpdonneboss"></span></div>
+                <div>
+                    <button id="boss" class="bouton combat">combattre</button>
+                    <button id="stopboss" class="bouton fuite">fuite</button>
+                </div>
+            
+        </section>
+    </div>
+
+
+    </div>
+    <br><br><br>
+    <h3>objet</h3>
+    <button id="potion">potion</button>
+    <script src="./jeu.js"></script>
+
+
+
+
+</body>
+
+</html>
